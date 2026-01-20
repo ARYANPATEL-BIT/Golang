@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "laskdjfasd"
+
 func main() {
 	var username string = "aryan"
 	fmt.Println(username)
@@ -31,4 +33,12 @@ func main() {
 	var anotherVariable int
 	fmt.Println(anotherVariable)
 	fmt.Printf("Variable is of type: %T \n", anotherVariable)
+
+	//implicit type
+	var website = "Hello everyone"
+	fmt.Println(website)
+
+	//no var style
+	numberOfUser := 300000
+	fmt.Println(numberOfUser)
 }
