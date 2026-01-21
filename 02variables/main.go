@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const LoginToken string = "laskdjfasd"
+const LoginToken string = "this could be anything."  // This is a public variable as the first letter of the variable is Capital.
 
 func main() {
 	var username string = "aryan"
@@ -41,4 +41,8 @@ func main() {
 	//no var style
     numberOfUser := 300000
 	fmt.Println(numberOfUser)
+
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type: %T \n", LoginToken)
+
 }
